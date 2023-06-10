@@ -4,9 +4,41 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(188, 188, 224);
+    width: 100%;
+    height: 100%;
+}
+
 
 .box{
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+    display: none;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background-color: brown;
+    color: #fff;
+    
+    
 }
+
+span{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-size: 25px;
+    
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+
+
+
